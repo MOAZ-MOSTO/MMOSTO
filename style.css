@@ -1,0 +1,136 @@
+/*
+Theme Name:HTML5;
+Date: Dec 2019;
+Discribtion: Learn basic HTML5;
+Version:1.0;
+Author: Moaz MOSTO;
+Author URL: None;
+*/
+@import url {
+	
+}
+body {
+	color: #000305;
+	font-size: 87.5%; /* based font-size= 14px */
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height: 2.5;
+	text-align: left;
+}
+
+ a {text-decoration: none;}
+
+ a:link, a:visited {color: #e74c3c ;}
+ a:hover, a:active {color: #f58233 ;}
+
+
+ .body {
+ 	margin: 10px auto;
+ 	width: 70%;
+ 	clear: both;
+ }
+
+
+ /* -------------------------- MAIN HEADER ------------------------ */
+
+
+ .mainHeader img {
+ 	width: 100%;
+ }
+
+ .mainHeader nav {
+ 	background-color: #e74c3c;
+ 	height: 40px;
+ 	border-radius: 5px;
+ 	-webkit-border-radius: 5px;
+ 	-moz-border-radius: 5px;
+
+ }
+
+ .mainHeader nav ul {
+ 	text-align: center;
+ 	list-style: none;
+ 	margin: 0 auto;
+ }
+
+.mainHeader nav ul li {
+	display: inline;
+
+}
+
+.mainHeader a:link, .mainHeader a:visited {
+	color: white;
+	padding: 5px 40px;
+	display: inline-block;
+	height: 30px;
+}
+
+.mainHeader a:hover, .mainHeader a:active {
+	color: white;
+	background-color: #f58233;
+	text-shadow: none;
+}
+
+
+ /* -------------------------- MAIN CONTENT ------------------------ */
+
+.mainContent {
+	width: 70%;
+	float: left;
+}
+
+ .top-content {
+ 	background-color: #bdc3c7;
+ 	padding: 3%;
+ 	margin-top: 3%;
+ 	border-radius: 5px;
+ 	-webkit-border-radius: 5px;
+ 	-moz-border-radius: 5px;
+ }
+
+ .post-info {
+ 	font-size: 90%;
+ 	color: #b33939 ;
+ 	font-style: italic;
+ 	margin-top: -20px;
+ }
+
+ .post-content {
+ 	display: inline;
+ }
+
+ /* -------------------------- SIDEBAR ------------------------ */
+
+ .thesidebar {
+ 	width: 24%;
+ 	margin: 2% 0 0 2%;
+ 	float: left;
+ 	padding: 2%;
+ 	background-color: #227093;
+ 	border-radius: 5px;
+ 	-webkit-border-radius: 5px;
+ 	-moz-border-radius: 5px;
+ }
+
+
+ /* -------------------------- FOOTER ------------------------ */
+
+
+.footer {
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+ 	background-color: #e74c3c;
+ 	height: 60px;
+ 	border-radius: 5px;
+ 	-webkit-border-radius: 5px;
+ 	-moz-border-radius: 5px;
+
+ }
+ .footer p {
+ 	text-align: center;
+ 	color: white;
+ 	width: 90%;
+
+ }
+
+
